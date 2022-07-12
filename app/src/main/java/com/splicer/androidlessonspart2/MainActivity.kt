@@ -13,6 +13,7 @@ class MainActivity : AppCompatActivity() {
         Fragment3.newInstance()
     )
     private lateinit var binding: ActivityMainBinding
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         binding = ActivityMainBinding.inflate(layoutInflater)
